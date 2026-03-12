@@ -77,4 +77,4 @@ starttime1 = time.time()
 for num in itertools.islice(fibonacci_gen_inf(), 1_000_000):
     pass
 endtime1 = time.time()
-print(f"time taken by generator function: {endtime-starttime}")
+print(f"time taken by isslice onr infinite generator function: {endtime1-starttime1}")

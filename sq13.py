@@ -35,4 +35,6 @@ with open("collections_data.txt") as f:
                              level=parts[2],
                              message=parts[3] if len(parts) == 4 else "")
             entries.append(entry)
+        # print(entries)
+
 print(entries[0].timestamp, entries[0].level, entries[0].message)
