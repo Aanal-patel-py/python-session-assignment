@@ -1,7 +1,9 @@
+import pdb
 def merge_calls(*funcs,**defaults):
     def wrapper(*args,**kwargs):
         updated_kwargs={**defaults,**kwargs}
         result=None
+        pdb.set_trace()
         for i,f in enumerate(funcs):
             if i==0:
                 result=f(*args,**kwargs)
