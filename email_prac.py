@@ -16,7 +16,7 @@ with smtplib.SMTP('smtp.outlook.com',587) as smtp:
     smtp.ehlo()
     print(x)
 
-    smtp.login(mail,'Aan@Work190127')
+    smtp.login()
     
     # subject='practicing email module'
     # body='123'
